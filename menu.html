@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sistema de finanças - Menu Principal</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Anton&family=BenchNine:wght@300&family=Mako&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/menu.css">
+
+</head>
+<body>
+
+<nav class="nav">
+   <div class="container">
+       <div class="logo">
+       </div>
+       <div id="mainListDiv" class="main_list">
+           <ul class="navlinks">
+               <li><a href="#">Meu perfil</a></li>
+               <li><a href="#">Gastos</a></li>
+               <li><a href="#">Investimentos</a></li>
+               <li><a href="#">Fundos imobiliários</a></li>
+           </ul>
+       </div>
+       <span class="navTrigger">
+           <i></i>
+           <i></i>
+           <i></i>
+       </span>
+   </div>
+</nav>
+
+<section class="home">
+</section>
+<div style="height: 1000px">
+   <!-- just to make scrolling effect possible -->
+    <h2 class="myH2">Quais são as melhores criptomoedas no momento?</h2>
+    <p class="myP"> Para ajudar você a encontrar essa resposta, temos aqui uma lista das melhores criptomoedas disponíveis atualmente:
+</p>
+       <p class="myP">
+        1. Metacade (MCADE)
+        O Metacade é uma das melhores criptomoedas para comprar no momento. É uma plataforma que oferecerá a maior seleção de jogos de arcade 
+        play-to-earn da Web3, com experiências e jogos online oferecendo recompensas financeiras integradas para os jogadores.<br>
+    
+        <br>
+        2. Ethereum (ETH)
+        O Ethereum é uma das maiores criptomoedas em valor de mercado, sendo um grande investimento no futuro da Web3. 
+        Ele é uma plataforma de blockchain descentralizada e de código aberto com funcionalidade de smart contracts, 
+        permitindo que uma vasta gama de aplicativos descentralizados (dApps) sejam construídos em sua rede. <br>
+
+        <br>
+        3. Shiba Inu (SHIB)
+        O Shiba Inu, também conhecido como SHIB, é o próximo na lista das melhores criptomoedas para comprar agora. Ele é um token baseado no Ethereum,
+        criado em agosto de 2020, sendo uma blockchain de layer-1 separada que foi criada como um fork do Ethereum. <br>
+
+        <br>
+        4. Polygon (MATIC)
+        O Polygon é outra das melhores criptomoedas. Ele é uma solução escalonável de layer-2 para o Ethereum que permite transações 
+        quase instantâneas com taxas de transação reduzidas.
+        O Polygon é um protocolo de código aberto que permite aos desenvolvedores construir facilmente dApps altamente escalonáveis 
+        através da compatibilidade da rede com EVM. <br>
+
+        <br>
+        5. Axie Infinity (AXS)
+        O Axie Infinity é outra das melhores criptomoedas. Ele é uma plataforma inovadora de jogos online que funciona na blockchain do Ethereum. 
+        O jogador pode comprar, 
+        criar e lutar com criaturas fantásticas chamadas de Axies, que são itens de total propriedade e customizáveis. <br>
+
+        <br>
+        6. Solana (SOL)
+        A Solana é outra das melhores criptomoedas. Ela é uma blockchain de próxima geração especificamente projetada para ser mais eficiente
+        energeticamente e escalonável que o layer-1 do Ethereum. 
+        A blockchain pode processar um grande número de transações por segundo e produzir finalidade de transação em milissegundos.
+    </p>
+
+</div>
+
+</body>
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/menu.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+   $(window).scroll(function() {
+       if ($(document).scrollTop() > 50) {
+           $('.nav').addClass('affix');
+           console.log("OK");
+       } else {
+           $('.nav').removeClass('affix');
+       }
+   });
+</script>
+
+</html>
